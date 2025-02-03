@@ -1,0 +1,15 @@
+setuptools
+opencv-python
+numpy
+pandas
+screeninfo
+pillow
+tqdm
+transformers
+huggingface-hub
+python-dotenv
+matplotlib
+torch
+beautifulsoup4
+open_operator
+PyAutoGUI

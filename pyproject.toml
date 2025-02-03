@@ -1,0 +1,36 @@
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open_operator"
+version = "0.1"
+dynamic = ["dependencies"]
+requires-python = ">=3.10"
+authors = [
+  {name = "Andrew Festa", email = "andrew@andrewtfesta.com"},
+]
+maintainers = [
+  {name = "Andrew Festa", email = "andrew@andrewtfesta.com"},
+]
+description = ""
+readme = "README.md"
+keywords = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["open_operator"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://github.com/AndrewTFesta/OpenOperator"
+Documentation = "https://github.com/AndrewTFesta/OpenOperator"
+Repository = "https://github.com/AndrewTFesta/OpenOperator"
+
